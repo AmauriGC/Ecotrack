@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'casos/aviso_semanal.dart';
-import 'casos/consumo_memoria.dart';
-import 'casos/lab_guardar.dart';
-import 'casos/medidor_texto.dart';
-import 'casos/registro_paneles.dart';
-import 'casos/tope_lectura.dart';
+import 'casos/aviso_semanal_factory.dart';
+import 'casos/consumo_memoria_repository.dart';
+import 'casos/lab_guardar_inyeccion_de_dependencias.dart';
+import 'casos/medidor_texto_adapter.dart';
+import 'casos/registro_paneles_observer.dart';
+import 'casos/tope_lectura_strategy.dart';
 
 void main() {
   final almacen = ConsumoEnMemoria();

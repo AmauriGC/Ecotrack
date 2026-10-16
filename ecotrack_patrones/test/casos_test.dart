@@ -1,10 +1,10 @@
 import 'dart:math';
 
-import 'package:ecotrack_patrones/casos/aviso_semanal.dart';
-import 'package:ecotrack_patrones/casos/lab_guardar.dart';
-import 'package:ecotrack_patrones/casos/medidor_texto.dart';
-import 'package:ecotrack_patrones/casos/registro_paneles.dart';
-import 'package:ecotrack_patrones/casos/tope_lectura.dart';
+import 'package:ecotrack_patrones/casos/aviso_semanal_factory.dart';
+import 'package:ecotrack_patrones/casos/lab_guardar_inyeccion_de_dependencias.dart';
+import 'package:ecotrack_patrones/casos/medidor_texto_adapter.dart';
+import 'package:ecotrack_patrones/casos/registro_paneles_observer.dart';
+import 'package:ecotrack_patrones/casos/tope_lectura_strategy.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
