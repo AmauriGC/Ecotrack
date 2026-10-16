@@ -30,32 +30,32 @@ class EcoTrackApp extends StatelessWidget {
     // y la redirección correcta a cada pantalla.
     final casos = <(String, String, Widget)>[
       (
-        'Caso A',
+        'Factory',
         'Centralizar la construcción de un objeto según el caso.',
         const PantallaAviso(),
       ),
       (
-        'Caso B',
+        'Inyección de dependencias',
         'Entregar desde fuera el objeto del que se depende.',
         const PantallaLab(),
       ),
       (
-        'Caso C',
+        'Adapter',
         'Traducir un formato ajeno al de la app.',
         PantallaMedidor(lector: lector),
       ),
       (
-        'Caso D',
+        'Repository',
         'Ocultar de dónde salen los datos.',
         PantallaConsumo(almacen: almacen),
       ),
       (
-        'Caso E',
+        'Observer',
         'Avisar a varios interesados sin nombrarlos.',
         const PantallaPaneles(),
       ),
       (
-        'Caso F',
+        'Strategy',
         'Intercambiar una regla sin copiar if.',
         const PantallaTope(),
       ),
